@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My resume</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            width: 60%;
+            margin: auto;
+        }
+        .row {
+           
+            display: flex; /* Added */
+        }
+        .col-1 {
+            width: 30%;
+            height:2000px;
+            background-color: rgb(48, 47, 47);
+        }
+        .col-2 {
+            width: 70%;
+            background-color:bisque;
+            
+        }
+        img {
+            border-radius: 50%;
+            display:block;
+            margin:auto;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            color:white;
+        }
+       
+        ul li{
+            margin-left: 20px;
+            font-size: 25px;
+            color:white;
+        }
+    
+        #name{
+            color:black;
+            font-size: 60px;
+            text-align: left;
+            margin-top: 0px;
+            height:50px;
+        }
+        i{
+            font-weight: bold;
+        }
+        #education h1,h2{
+            color:black;
+        }
+        #education ul li{
+            color:black;
+        }
+        .project h1{
+            color:black;
+        }
+        .project p{
+            font-size: 20px;
+        }
+        .activities h1{
+            color:black;
+        }
+        .activities{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row"> <!-- Added -->
+            <div class="col-1">
+                <img src="profile.jpg" alt="preetham">
+                <br>
+                <h1 style="color:white">Contacts</h1>
+                <br>
+                <h2 style="color:white">Phone:7892700846</h2>
+                <br>
+                <h2 style="color:white">Email:preetham@gmail.com</h2>
+                <br>
+                <h2 style="color:white">Address:<p>#1870,2nd Cross,K block</p>
+                                Kuvempunagar,Mysore</h2>
+                <hr>
+                <h1>Skills</h1>
+                <br>
+                
+                <ul>
+                    <li>My SQL</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                </ul>
+                <hr>
+                <h1>Languages Known</h1>
+                <ul>
+                    <li>English</li>
+                    <li>Hindi</li>
+                    <li>French</li>
+                </ul>
+                <hr>
+                <h1>Courses and Certification</h1>
+                <ul>
+                    <li>Microsoft Cloud-computing </li>
+                    <li>Google IOT Workshop</li>
+                    <li>Amazon Web-Development</li>
+                </ul>
+                <br>
+                
+            </div>
+            <div class="col-2">
+                <div style="background-color:burlywood; padding-bottom: 10px;">
+                <h1 id="name">Preetham G</h1>
+                <i>I'm absolutely passionate about computer science! <i>From the intricacies of algorithms to the boundless possibilities of artificial intelligence, 
+                    every aspect of CS ignites my curiosity and excitement.</i> The dynamic nature of the field continuously challenges me to explore new concepts and technologies,
+                     fueling my enthusiasm to delve deeper into its complexities. </i>
+                </div>
+                <div id="education">
+                   <h1>Education History</h1>
+                   <h2>Graduation</h2>
+                   <ul>
+                       <li >Course:BE(Computer Science)</li>
+                       <li>College:JSS Science and technology</li>
+                       <li>Year of Passing:2025</li>
+                       <li>Grade:9.0 CGPA</li>
+                   </ul>
+                   <h2>Class XII</h2>
+                   <ul>
+                       <li>Board:Karnataka</li>
+                       <li>Subject:PCMB</li>
+                       <li>Year of Passing:2021</li>
+                       <li>Grade:99.33%</li>
+                   </ul>
+                   <h2>Class X</h2>
+                   <ul>
+                       <li>Board:Karnataka</li>
+                       <li>year of Passing:2019</li>
+                       <li>Grade:96.4%</li>
+                   </ul>
+                </div>
+                <hr>
+                <div class="project">
+                    <h1>Projects</h1>
+                    <p style="font-size: 30px;">1)Area corporation Manangerment System</p>
+                    <p>Area Corporation Management System is designed to streamline and improve the administration and governance  
+                        of a city or municipality. The objectives of such a system are to enhance the management of various city functions  
+                        and services efficiently </p>
+                    <p>Frontend: React js,HTML,CSS
+                    <p>Backend: MySQL </p> 
+                    <p>API: Intellij IDEA </p> 
+                    <p>Features : Complaint Handling, </p> 
+                           <p>Feedback Management, </p>
+                        <p> Security, </p>
+                         <p>Data Integrity, </p>
+                         <p>Reporting and Analysis.</p> 
+                        <p>Github link: 
+                           <a href=" https://github.com/jssstudent">Click here</a></p>
+                    <p style="font-size: 30px;">2)Nanobots in Precision Medicine : Transforming Healt hcare through Microscopic Machines  </p>
+                         <p>Developed a report exploring the unique field of medicine delivery using nanobots, examining their uses, benefits,  
+                            drawbacks, and potential. </p>
+                         <p>Recorded DATA-SET using NS-2 SIMULATOR. </p>
+                         <p>Plotting the graph using DSDV algorithm for finding the packet loss and delay to improve the efficiency of  
+                            communication between the nanobots. </p>
+                        <p>SIMULATION of the movement of nanobots using Network Animator. </p> 
+                </div>
+                <hr>
+                <div class="activities">
+                    <h1>Extra-curricular activities</h1>
+                    <p>1)Chess</p>
+                    <p>State level chess champion</p>
+                    <p>Participated in College Nationals held in Andhra Pradesh 2020</p>
+                    <p>Karate Black-belt</p>
+                </div>
+
+            </div> 
+        </div> 
+    </div>
+</body>
+</html>
